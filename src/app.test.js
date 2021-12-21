@@ -9,8 +9,8 @@ test('Checking get savingdata', (done) => {
 });
 
 test('Checking error async/await', (done) => {
-  GameSavingLoader.load(true).then((saving) => {
-    expect(saving).toEqual('Error data');
+  GameSavingLoader.load(true).then((error) => {
+    expect(error).toEqual('Error data');
     done();
   });
 });

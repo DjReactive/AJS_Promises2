@@ -6,7 +6,7 @@ export default class GameSavingLoader {
     return (async () => {
       try {
         let reading = await read();
-        if (forceError) reading = null;
+        if (forceError) throw new Error('Error data');
         const data = await json(reading);
         return data;
       } catch (error) {
