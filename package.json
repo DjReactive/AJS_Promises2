@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DjReactive/AJS_Promises.git"
+    "url": "git+https://github.com/DjReactive/AJS_Promises2.git"
   },
   "author": "djreactive",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DjReactive/AJS_Promises/issues"
+    "url": "https://github.com/DjReactive/AJS_Promises2/issues"
   },
-  "homepage": "https://github.com/DjReactive/AJS_Promises#readme",
+  "homepage": "https://github.com/DjReactive/AJS_Promises2#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
